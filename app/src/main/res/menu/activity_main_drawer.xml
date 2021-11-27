@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_servicios"
+            android:icon="@drawable/baseline_home_max_20"
+            android:title="@string/menu_servicios" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_cast_connected_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_devices_other_24"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_headphones_20"
+            android:title="@string/menu_slideshow" />
+    </group>
+</menu>
